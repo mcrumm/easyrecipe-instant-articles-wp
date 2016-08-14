@@ -23,7 +23,7 @@ Copy and paste the following rules into the **Custom Transformer Rules** setting
 { "rules": [
   { "class": "IgnoreRule", "selector": "div.ERSClear" },
   { "class": "IgnoreRule", "selector": "div.ERSSavePrint" },
-  { "class": "IgnoreRule", "selector": "div.endeasyrecipe" }
+  { "class": "IgnoreRule", "selector": "div.endeasyrecipe" },
   { "class": "PassThroughRule", "selector": "div.easyrecipe" },
   { "class": "PassThroughRule", "selector": "div.ERSDetails" },
   { "class": "PassThroughRule", "selector": "div.ERSTimes" },
@@ -40,6 +40,6 @@ Copy and paste the following rules into the **Custom Transformer Rules** setting
   { "class": "ParagraphRule", "selector": "div.ERSHead" },
   { "class": "ParagraphRule", "selector": "div.ERSNotes" },
   { "class": "ParagraphRule", "selector": "div.ERSSectionHead" },
-  { "class": "ItalicRule", "selector": "time" },
+  { "class": "ItalicRule", "selector": "time" }
 ] }
 ```
